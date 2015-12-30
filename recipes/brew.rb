@@ -49,8 +49,3 @@ node["brew"]["install_apps"].each do |app|
     not_if "brew cask list | grep -q #{app}"
   end
 end
-
-# Setup alfred
-execute "Setup alfred" do
-  command "brew cask alfred link"
-end

@@ -33,6 +33,7 @@ brew:
     - rbenv
     - ruby-build
   install_apps:
+    - alfred
     - google-chrome
     - firefox
     - iterm2
@@ -40,3 +41,4 @@ brew:
     - slack
     - google-japanese-ime
     - macvim
+    - dropbox
